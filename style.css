@@ -72,7 +72,8 @@ label {
 }
 /* WHEN YOU HOVER OVER THE ARROW & X */
 .custom-input-button,
-.custom-input-button-close:hover {
+.custom-input-button-close,
+:hover {
     color: #e657e6;
     cursor: pointer;
 }
