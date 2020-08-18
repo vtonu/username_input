@@ -14,7 +14,7 @@ body {
     justify-content: center;
 
     font-family: 'Open Sans', sans-serif;
-    background: #121212;
+    background: #121212;  
 }
 /*----------------------------------------*/
 
@@ -30,7 +30,7 @@ body {
 label {
     color: #cedbf8;
     display: block;
-    line-height: 1;
+    line-height: 1.5;
     margin-bottom: 0.5rem;
     margin-left: 0.2rem;
     font-size: 1rem;
@@ -56,11 +56,9 @@ label {
 }
 .custom-input-button-close {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
     position: absolute;
     top: 50%;
-    right: 105%;
+    right: 102%;
 
     background: none;
     color: #cedbf8;
@@ -74,14 +72,14 @@ label {
 .custom-input-button,
 .custom-input-button-close,
 :hover {
-    color: #e657e6;
+    color: #E658E6;
     cursor: pointer;
 }
 /* WHEN YOU CLICK THE ARROW */
 .custom-input-button,
 .custom-input-button-close,
 :active {
-    transform: scale(1,1);
+    transform: scale(1, 1);
     color: #E65;
 }
 .input-container {
