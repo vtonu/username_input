@@ -49,24 +49,37 @@ label {
     align-items: center;
     position: absolute;
     right: 18px;
-    top: 65%;
+    top: 50%;
     transform: translateY(-50%);
     background: none;
     color: #cedbf8;
 }
-/* THE SIZE OF THE ARROW */
-.custom-input-button svg {
+.custom-input-button-close {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: absolute;
+    top: 50%;
+    right: 105%;
+
+    background: none;
+    color: #cedbf8;
+}
+/* THE SIZE OF THE ARROW & X */
+.custom-input-button,
+.custom-input-button-close svg {
     width: 20px;
 }
-/* WHEN YOU HOVER OVER THE ARROW */
-.custom-input-button:hover {
+/* WHEN YOU HOVER OVER THE ARROW & X */
+.custom-input-button,
+.custom-input-button-close:hover {
     color: #e657e6;
     cursor: pointer;
 }
 /* WHEN YOU CLICK THE ARROW */
-.custom-input-button:active {
+.custom-input-button,
+.custom-input-button-close:active {
     transform: scale(1,1);
-    top: 51%;
 }
 .input-container {
     position: relative;

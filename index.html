@@ -13,13 +13,19 @@
 <body>
 
 
+
     <div class="input-container">
+
+        <button type="submit" class="custom-input-button-close">
+            <i data-feather="x-square" id="close"></i>
+        </button>
+        
         <label for="username">What's your username?</label>
 
-    <input type="text" class="custom-input" placeholder="@" maxlength="25" autocomplete="off" spellcheck="false">
-        <button type="submit" class="custom-input-button" onclick="insertRon()">
-            <i data-feather="arrow-right"></i>
-        </button>
+        <input type="text" class="custom-input" placeholder="@" maxlength="25" autocomplete="off" spellcheck="false">
+            <button type="submit" class="custom-input-button">
+                <i data-feather="arrow-right"></i>
+            </button>
     </div>
 
     <script src="https://unpkg.com/feather-icons"></script>
@@ -27,8 +33,11 @@
         feather.replace();
     </script>
 
+
 <script src="app.js" type="module"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
 
 </body>
 </html>
