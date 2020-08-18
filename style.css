@@ -78,8 +78,10 @@ label {
 }
 /* WHEN YOU CLICK THE ARROW */
 .custom-input-button,
-.custom-input-button-close:active {
+.custom-input-button-close,
+:active {
     transform: scale(1,1);
+    color: #E65;
 }
 .input-container {
     position: relative;
