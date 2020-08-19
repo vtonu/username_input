@@ -1,43 +1,39 @@
 <!DOCTYPE html>
 <html lang="en" oncontextmenu="return false">
-
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Input Form</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-</head>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
 
-
-<body>
-
-
-
+  <body>
     <div class="input-container">
+      <button type="submit" class="custom-input-button-close">
+        <i data-feather="x-square" id="close"></i>
+      </button>
 
-        <button type="submit" class="custom-input-button-close">
-            <i data-feather="x-square" id="close"></i>
-        </button>
-        
-        <label for="username">What's your username?</label>
+      <label for="username">What's your username?</label>
 
-        <input type="text" class="custom-input" placeholder="@" maxlength="25" autocomplete="off" spellcheck="false">
-            <button type="submit" class="custom-input-button">
-                <i data-feather="arrow-right"></i>
-            </button>
+      <input
+        type="text"
+        class="custom-input"
+        placeholder="@"
+        maxlength="25"
+        autocomplete="off"
+        spellcheck="false"
+      />
+      <button type="submit" class="custom-input-button">
+        <i data-feather="arrow-right"></i>
+      </button>
     </div>
 
     <script src="https://unpkg.com/feather-icons"></script>
     <script>
-        feather.replace();
+      feather.replace();
     </script>
 
-
-<script src="app.js" type="module"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-
-
-</body>
+    <script src="app.js" type="module"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  </body>
 </html>
