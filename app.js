@@ -1,7 +1,7 @@
 // Add '@' when you focus inside the input.
 let input = document.getElementsByClassName("custom-input");
 
-$("input").focus(function () {
+$("input").focus(function (e) {
   $(input).val("@");
 });
 
