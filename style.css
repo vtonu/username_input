@@ -1,5 +1,6 @@
-/*----------------------------------------*/
-
+/*============================
+CLEAR UP AND CENTER EVERYTHING
+============================*/
 * {
   margin: 0;
   padding: 0;
@@ -23,8 +24,9 @@ body {
   -webkit-user-select: none; /* Chrome, Safari, and Opera */
   -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
 }
-/*----------------------------------------*/
-
+/*=============
+STYLE THE INPUT
+=============*/
 .custom-input::placeholder {
   color: rgba(206, 211, 255, 0.3);
   font-family: "Open Sans", sans-serif;
@@ -51,6 +53,9 @@ label {
   color: #cedbf8;
   background: black;
 }
+/*================
+STYLE THE X BUTTON
+=================*/
 .custom-input-button {
   display: flex;
   align-items: center;
@@ -119,4 +124,6 @@ label {
     background-position: 150% 0;
   }
 }
-/*----------------------------------------*/
+/*=
+END
+=*/
