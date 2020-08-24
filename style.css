@@ -64,7 +64,6 @@ STYLE THE X BUTTON
   top: 50%;
   transform: translateY(-50%);
   background: none;
-  color: #cedbf8;
 }
 .custom-input-button-close {
   display: flex;
@@ -79,20 +78,20 @@ STYLE THE X BUTTON
 .custom-input-button,
 .custom-input-button-close svg {
   width: 20px;
+  color: rebeccapurple;
 }
 /* WHEN YOU HOVER OVER THE ARROW & X */
 .custom-input-button,
-.custom-input-button-close,
+.custom-input-button-close svg,
 :hover {
   color: #e658e6;
   cursor: pointer;
 }
 /* WHEN YOU CLICK THE ARROW */
 .custom-input-button,
-.custom-input-button-close,
+.custom-input-button-close svg,
 :active {
   transform: scale(1, 1);
-  color: #e65;
 }
 .input-container {
   position: relative;
