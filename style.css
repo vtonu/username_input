@@ -37,12 +37,12 @@ STYLE THE INPUT
   text-decoration: none;
 }
 label {
-  color: #cedbf8;
+  color: rgb(255, 255, 255);
   display: block;
   line-height: 1.5;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
   margin-left: 0.2rem;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .custom-input {
   padding: 18px;
@@ -68,8 +68,8 @@ STYLE THE X BUTTON
 .custom-input-button-close {
   display: flex;
   position: absolute;
-  top: 50%;
-  right: 102%;
+  top: 60%;
+  right: 105%;
 
   background: none;
   color: #cedbf8;
@@ -78,20 +78,14 @@ STYLE THE X BUTTON
 .custom-input-button,
 .custom-input-button-close svg {
   width: 20px;
-  color: rebeccapurple;
+  color: rgb(139, 34, 244);
+  display: grid;
 }
-/* WHEN YOU HOVER OVER THE ARROW & X */
-.custom-input-button,
-.custom-input-button-close svg,
-:hover {
-  color: #e658e6;
+.custom-input-button-close svg:active {
+  transform: scale(0.95, 0.95);
+}
+.custom-input-button-close svg:hover {
   cursor: pointer;
-}
-/* WHEN YOU CLICK THE ARROW */
-.custom-input-button,
-.custom-input-button-close svg,
-:active {
-  transform: scale(1, 1);
 }
 .input-container {
   position: relative;
